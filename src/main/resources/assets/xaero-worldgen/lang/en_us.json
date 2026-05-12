@@ -1,0 +1,5 @@
+{
+  "modmenu.nameTranslation.xaero-worldgen": "Xaero WorldGen",
+  "modmenu.descriptionTranslation.xaero-worldgen": "Streams VoxyWorldGenV2 chunk output into Xaero World Map",
+  "modmenu.summaryTranslation.xaero-worldgen": "Runtime bridge for VWG and Xaero map rendering"
+}

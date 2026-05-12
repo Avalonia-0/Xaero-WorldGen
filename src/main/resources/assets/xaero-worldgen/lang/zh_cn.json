@@ -1,0 +1,5 @@
+{
+  "modmenu.nameTranslation.xaero-worldgen": "Xaero WorldGen",
+  "modmenu.descriptionTranslation.xaero-worldgen": "将 VoxyWorldGenV2 生成的区块实时桥接到 Xaero 世界地图",
+  "modmenu.summaryTranslation.xaero-worldgen": "VWG 与 Xaero 地图渲染运行时桥接"
+}

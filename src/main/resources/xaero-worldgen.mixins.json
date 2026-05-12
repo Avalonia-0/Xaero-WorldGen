@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.alonie.xaero_worldgen.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "voxy.VoxyIntegrationMixin",
+    "xaero.MapRegionMixin",
+    "xaero.MapSaveLoadMixin",
+    "xaero.WorldDataReaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

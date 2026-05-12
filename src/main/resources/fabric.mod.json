@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "xaero-worldgen",
+  "version": "${version}",
+  "name": "Xaero WorldGen",
+  "description": "Runtime Voxy -> Xaero bridge that synthesizes chunk NBT from Voxy storage for Xaero World Map and Mini Map consumption.",
+  "authors": [
+    "alonie"
+  ],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/xaero-worldgen/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.alonie.xaero_worldgen.VwgXwmBridgeClient"
+    ]
+  },
+  "mixins": [
+    "xaero-worldgen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "xaeroworldmap": ">=1.40.16",
+    "voxy": "*",
+    "voxyworldgenv2": "*"
+  }
+}
