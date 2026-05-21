@@ -27,14 +27,13 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
-	def modsDir = file("../../mods")
-	def xaeroWorldMapJar = new File(modsDir, "[Xaero的世界地图] xaeroworldmap-fabric-1.21.11-1.40.16.jar")
-	def xaeroMiniMapJar = new File(modsDir, "[Xaero的小地图] xaerominimap-fabric-1.21.11-25.3.12.jar")
-	def voxyJar = new File(modsDir, "voxy-0.2.13-alpha.jar")
-	def voxyWorldGenJar = new File(modsDir, "Voxy World Gen V2-1.21.11-2.2.4.jar")
+	def libsDir = file("libs")
+	def xaeroWorldMapJar = new File(libsDir, "xaeroworldmap.jar")
+	def xaeroMiniMapJar = new File(libsDir, "xaerominimap.jar")
+	def voxyJar = new File(libsDir, "voxy-0.2.13-alpha.jar")
+	def voxyWorldGenJar = new File(libsDir, "voxyworldgenv2.jar")
 
 	modCompileOnly files(xaeroWorldMapJar, xaeroMiniMapJar, voxyJar, voxyWorldGenJar)
-	modLocalRuntime files(xaeroWorldMapJar, xaeroMiniMapJar, voxyJar, voxyWorldGenJar)
 }
 
 processResources {
